@@ -25,7 +25,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/login"
         android:layout_marginTop="100dp"
-        android:text="Login">
+        android:text="Login"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff">
 
     </androidx.appcompat.widget.AppCompatButton>
 
@@ -33,7 +35,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/register"
-        android:text="Registro">
+        android:text="Registro"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff">
     </androidx.appcompat.widget.AppCompatButton>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

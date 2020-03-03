@@ -2,6 +2,7 @@ package com.example.wechat;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.ButtonBarLayout;
 import androidx.appcompat.widget.Toolbar;
 
@@ -19,7 +20,7 @@ import com.rengwuxian.materialedittext.MaterialEditText;
 
 public class LoginActivity extends AppCompatActivity {
     MaterialEditText email,password;
-    ButtonBarLayout btn_login;
+    AppCompatButton btn_login;
 
     FirebaseAuth auth;
 
